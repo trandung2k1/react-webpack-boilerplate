@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "module": "CommonJS",
+    "target": "ES5",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "strict": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@style/*": ["style/*"]
+    },
+    "lib": ["dom", "es5", "scripthost", "es2015.promise"]
+  },
+  "include": ["src"]
+}
